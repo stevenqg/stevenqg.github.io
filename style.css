@@ -1,0 +1,58 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+#home {
+	background: url(img/fotoZorroGris.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+
+footer {
+	align-content: center;
+	width: 100%;
+	background-color: black;
+	padding: 5% 5% 5% 5%;
+	color: white;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 760px){
+	.landing-text h1{
+		font-size: 300%;
+	}
+
+	.fa{
+		font-size: 20px;
+		padding: 10px;
+	}
+
+}
