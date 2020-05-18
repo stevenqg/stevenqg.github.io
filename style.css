@@ -20,7 +20,7 @@ html, body{
 	height: 80%;
 	position: relative;
 	width: 100%;
-	background-size: cover;
+	background-size: 50%;
 }
 .landing-text {
 	display: table-cell;
