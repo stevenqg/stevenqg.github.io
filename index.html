@@ -59,18 +59,18 @@
     <section id="coleccion" class="py-16 px-4 bg-white">
       <h2 class="text-3xl font-bold mb-8 text-center">Colección</h2>
       <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        <img src="img/ZG_LK_25_04931.jpg" alt="Colección 1" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_04954.jpg" alt="Colección 2" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05025.jpg" alt="Colección 3" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05028.jpg" alt="Colección 4" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05144.jpg" alt="Colección 5" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05237.jpg" alt="Colección 6" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05275.jpg" alt="Colección 7" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05285.jpg" alt="Colección 8" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05297.jpg" alt="Colección 9" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05368.jpg" alt="Colección 10" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05474.jpg" alt="Colección 11" class="w-full h-auto object-cover" />
-        <img src="img/ZG_LK_25_05491.jpg" alt="Colección 12" class="w-full h-auto object-cover" />
+        <img src="img/ZG_LK_25_04931.jpg" alt="Colección 1" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_04954.jpg" alt="Colección 2" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05025.jpg" alt="Colección 3" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05028.jpg" alt="Colección 4" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05144.jpg" alt="Colección 5" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05237.jpg" alt="Colección 6" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05275.jpg" alt="Colección 7" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05285.jpg" alt="Colección 8" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05297.jpg" alt="Colección 9" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05368.jpg" alt="Colección 10" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05474.jpg" alt="Colección 11" class="w-full h-auto object-cover image-preview" />
+        <img src="img/ZG_LK_25_05491.jpg" alt="Colección 12" class="w-full h-auto object-cover image-preview" />
       </div>
     </section>
 
@@ -114,27 +114,4 @@
 
   <script>
     // Funcionalidad del menú móvil
-    document.getElementById('menu-toggle').addEventListener('click', () => {
-      const menu = document.getElementById('mobile-menu');
-      menu.classList.toggle('hidden');
-    });
-
-    // Previsualización de imagen en modal
-    const images = document.querySelectorAll('img');
-    const modal = document.getElementById('modal');
-    const preview = document.getElementById('preview');
-    const closeModal = document.getElementById('close-modal');
-
-    images.forEach(image => {
-      image.addEventListener('click', () => {
-        preview.src = image.src;
-        modal.classList.remove('hidden');
-      });
-    });
-
-    closeModal.addEventListener('click', () => {
-      modal.classList.add('hidden');
-    });
-  </script>
-</body>
-</html>
+    document.getElementById('menu-toggle').addEv
